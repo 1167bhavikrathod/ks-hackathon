@@ -1,0 +1,138 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Back" [ref=e8] [cursor=pointer]:
+          - img [ref=e9]
+          - generic [ref=e11]: Back
+        - generic [ref=e12]:
+          - img [ref=e14]
+          - generic [ref=e17]:
+            - heading "Resume Builder" [level=1] [ref=e18]
+            - generic [ref=e20]: Windsurf AI
+      - generic [ref=e22]:
+        - button "Export PDF" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+          - generic [ref=e27]: Export PDF
+        - button "Save JSON" [ref=e28] [cursor=pointer]:
+          - img [ref=e29]
+          - generic [ref=e32]: Save JSON
+        - generic [ref=e33]:
+          - generic [ref=e34]: 0 experiences
+          - generic [ref=e35]: •
+          - generic [ref=e36]: 0/4 contact info
+  - generic [ref=e38]:
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - heading "Resume Editor" [level=2] [ref=e43]
+          - button "Preview" [ref=e45] [cursor=pointer]:
+            - img [ref=e46]
+            - generic [ref=e49]: Preview
+        - generic [ref=e50]:
+          - button "Personal Info" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+            - generic [ref=e55]: Personal Info
+          - button "Experience" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+            - generic [ref=e60]: Experience
+          - button "Education" [ref=e61] [cursor=pointer]:
+            - img [ref=e62]
+            - generic [ref=e65]: Education
+          - button "Skills" [ref=e66] [cursor=pointer]:
+            - img [ref=e67]
+            - generic [ref=e70]: Skills
+      - generic [ref=e71]:
+        - generic [ref=e73]:
+          - textbox "Full Name" [ref=e75]
+          - textbox "Email Address" [ref=e77]
+          - textbox "Phone Number" [ref=e79]
+          - textbox "Location" [ref=e81]
+        - button "Load Demo Data" [ref=e83] [cursor=pointer]
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e87]:
+          - img [ref=e89]
+          - generic [ref=e91]:
+            - heading "AI Suggestions" [level=2] [ref=e92]
+            - paragraph [ref=e93]: Powered by advanced AI
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - button "Rewrite" [ref=e96] [cursor=pointer]:
+              - img [ref=e97]
+              - generic [ref=e102]: Rewrite
+            - button "Enhance" [ref=e103] [cursor=pointer]:
+              - img [ref=e104]
+              - generic [ref=e106]: Enhance
+            - button "Keywords" [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+              - generic [ref=e109]: Keywords
+          - button "Get Rewrite Suggestions" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: Get Rewrite Suggestions
+          - generic [ref=e115]:
+            - img [ref=e116]
+            - paragraph [ref=e118]: No suggestions yet.
+            - paragraph [ref=e119]: Select text and click "Get Suggestions"
+          - paragraph [ref=e121]:
+            - strong [ref=e122]: "Tip:"
+            - text: Select text in your resume, then click "Get Suggestions" to improve it with AI.
+      - generic [ref=e124]:
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - generic [ref=e127]:
+              - img [ref=e129]
+              - generic [ref=e133]:
+                - heading "Resume Score" [level=3] [ref=e134]
+                - paragraph [ref=e135]: AI-powered analysis
+            - generic [ref=e136]:
+              - img [ref=e137]
+              - generic [ref=e140]: Professional
+          - generic [ref=e141]:
+            - button "Overview" [ref=e142] [cursor=pointer]:
+              - img [ref=e143]
+              - generic [ref=e147]: Overview
+            - button "Details" [ref=e148] [cursor=pointer]:
+              - img [ref=e149]
+              - generic [ref=e152]: Details
+            - button "Insights" [ref=e153] [cursor=pointer]:
+              - img [ref=e154]
+              - generic [ref=e157]: Insights
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - img [ref=e162]
+              - generic [ref=e166]:
+                - generic [ref=e167]: 4%
+                - generic [ref=e168]: SCORE
+            - generic [ref=e170]:
+              - img [ref=e171]
+              - generic [ref=e173]: Needs Work
+          - generic [ref=e174]:
+            - generic [ref=e175]:
+              - generic [ref=e176]: "0"
+              - generic [ref=e177]: Experiences
+            - generic [ref=e178]:
+              - generic [ref=e179]: 0/4
+              - generic [ref=e180]: Contact Info
+          - generic [ref=e181]:
+            - heading "Priority Actions" [level=4] [ref=e182]
+            - generic [ref=e183]:
+              - img [ref=e184]
+              - generic [ref=e186]:
+                - paragraph [ref=e187]: Complete 4 missing contact field(s)
+                - text: "0"
+            - generic [ref=e188]:
+              - img [ref=e189]
+              - generic [ref=e193]:
+                - paragraph [ref=e194]: Add at least one work experience
+                - text: "0"
+            - generic [ref=e195]:
+              - img [ref=e196]
+              - generic [ref=e198]:
+                - paragraph [ref=e199]: Use more action words (developed, managed, etc.)
+                - text: "0"
+```

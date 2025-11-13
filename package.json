@@ -1,0 +1,20 @@
+{
+  "name": "resume-builder-windsurf",
+  "version": "1.0.0",
+  "description": "AI-powered resume builder with Windsurf",
+  "scripts": {
+    "dev": "concurrently \"npm run frontend:dev\" \"npm run backend:dev\"",
+    "frontend:dev": "cd frontend && npm run dev",
+    "backend:dev": "cd backend && npm run dev",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install && cd ..",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["resume", "ai", "windsurf", "react", "express"],
+  "author": "BK",
+  "license": "MIT"
+}
