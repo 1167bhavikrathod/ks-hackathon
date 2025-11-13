@@ -1,4 +1,4 @@
-# Windsurf Resume Builder
+# Resume Builder
 
 AI-powered resume builder with React frontend and Express backend.
 
